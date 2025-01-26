@@ -1,0 +1,6 @@
+# Thuộc tính (Attribute)
+
+---
+
+
+
