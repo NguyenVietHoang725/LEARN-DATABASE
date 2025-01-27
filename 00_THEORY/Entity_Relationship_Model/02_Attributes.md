@@ -18,19 +18,14 @@ Trong hệ quản trị cơ sở dữ liệu (DBMS), **thực thể** là các �
 
 ### 1.2. Các loại thuộc tính
 
-1. **Thuộc tính đơn giản (Simple Attributes)**: Không thể chia nhỏ hơn.
-2. **Thuộc tính phức hợp (Composite Attributes)**: Có thể chia thành nhiều thuộc tính con.
-3. **Thuộc tính đơn trị (Single Valued Attributes)**: Chỉ có một giá trị duy nhất tại một thời điểm.
-4. **Thuộc tính đa trị (Multi-Valued Attributes)**: Có nhiều giá trị cùng một lúc.
-5. **Thuộc tính dẫn xuất (Derived Attributes)**: Tính toán từ các thuộc tính khác.
-6. **Thuộc tính phức hợp (Complex Attributes)**: Ít được sử dụng.
-7. **Thuộc tính khóa (Key Attributes)**: Được dùng để định danh duy nhất một thực thể.
-8. **Thuộc tính lưu trữ (Stored Attributes)**: Được lưu trực tiếp trong cơ sở dữ liệu.
-
-- **Ví dụ**: Thực thể "Sinh viên" có các thuộc tính như: Mã số sinh viên (Roll_No), Tên (Name), Ngày sinh (DOB), Số điện thoại (Phone_No), Địa chỉ (Address). Trong đó:
-
-   - Roll_No là thuộc tính khóa.
-   - Phone_No là thuộc tính đa trị.
+[1. **Thuộc tính đơn giản (Simple Attributes)**](#2-thuộc-tính-đơn-giản-simple-attributes)
+[2. **Thuộc tính tổng hợp (Composite Attributes)**](#3-thuộc-tính-tổng-hợp-composite-attributes)
+[3. **Thuộc tính đơn trị (Single Valued Attributes)**](#4-thuộc-tính-đơn-trị-single-valued-attributes)
+[4. **Thuộc tính đa trị (Multi-Valued Attributes)**](#5-thuộc-tính-đa-trị-multi-valued-attributes)
+[5. **Thuộc tính dẫn xuất (Derived Attributes)**](#6-thuộc-tính-dẫn-xuất-derived-attributes)
+[6. **Thuộc tính phức hợp (Complex Attributes)**](#8-thuộc-tính-phức-hợp-complex-attributes)
+[7. **Thuộc tính khóa (Key Attributes)**](#7-thuộc-tính-khóa-key-attributes)
+[8. **Thuộc tính lưu trữ (Stored Attributes)**](#9-thuộc-tính-lưu-trữ-stored-attributes)
 
 ---
 
